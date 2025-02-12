@@ -3,10 +3,10 @@ Aim:  We want to implement a target volatility strategy on the commodities
 
 Steps to do
 1) Gather and clean the data (aim to work with daily close prices)
-   - Take the bloomberg future 3 months rolling indexes on each main contract of the main commodities 
+   - Take the bloomberg future 3 months rolling indexes on each main contract of the main commodities (done)
 2) Implement and test forcasting volatility models on each contract
   - GARCH
-  - SARIMAX
+  - SARIMAX (done)
   - ARIMA
   - SABR
   The results may be different based on asset class seasonality, we might have to discuss how to adapt the implementation
